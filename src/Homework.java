@@ -1,4 +1,4 @@
-public class Homework1 {
+public class Homework {
     public static void main(String[] args) {
         /*1.*/
         String string1 = "This line that i want to cut, cause it is too long.";
