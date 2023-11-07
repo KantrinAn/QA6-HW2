@@ -34,7 +34,7 @@ public class WhoWhereWhen {
              int where = scanner.nextInt();
              building = where;
          } while (building< 0 || building>= place.length);
-        System.out.println(names[name]+ " будет идти " + place[building]+ " в " + time[hour]);
+        System.out.println(names[name]+ " будет идти в " + place[building]+ " в " + time[hour]);
 
 
     }
