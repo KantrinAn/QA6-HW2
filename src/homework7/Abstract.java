@@ -16,6 +16,5 @@ public class Abstract {
    public String yearOfGraduation;
    public String colorOfWrapper;
    public String university;
-
     }
 
