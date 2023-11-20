@@ -1,6 +1,6 @@
 package homework7;
 
-public class Abstract {
+public class Konspekt {
   /*  Создать класс Конспект. Класс должен содержать следующие поля:
     ФИО студента;
     Название предмета;
