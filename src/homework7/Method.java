@@ -1,0 +1,36 @@
+package homework7;
+
+import java.util.Arrays;
+
+/*	Не принимать никаких значений, тогда он будет выводить на консоль сообщение типа: "Я пустой".
+        •	Принимать в качестве параметров String, тогда он будет выводить на консоль это сообщение.
+        •	Принимать в качестве параметров массив строк,
+        тогда он будет выводить на консоль все его значения через пробел.
+        •	Принимать в качестве параметра массив чисел,
+        тогда он будет выводить на консоль сумму элементов массива.
+        •	Принимать в качестве параметров число и строку,
+        тогда он будет выводить на консоль сообщение типа:
+        Ваше сообщение - "%%%%%%%%", ваше число -  $", где "%%%%%%%%" и " +
+        "$ ваши введенные строка и число соответственно.*/
+public class Method {
+
+    public void someOperation () {
+        System.out.println("Я пустой");
+    }
+    public void someOperation (String string) {
+        System.out.println("It's method with string " + string);
+    }
+    public void someOperation (String[] array) {
+        System.out.println(Arrays.toString(array));
+    }
+    public void someOperation (int [] array) {
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            sum = sum + array[i];
+        }
+        System.out.println("Sum elements of array is "+sum);
+    }
+    public void someOperation (String text, int number) {
+        System.out.println("You message: "+ text + ", your number is "+ number);
+    }
+}
